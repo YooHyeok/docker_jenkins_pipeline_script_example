@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('github clone') {
             steps {
-                git branch: 'main', url: 'https://github.com/joneconsulting/cicd-web-project.git'; 
+                git branch: 'main', url: 'https://github.com/YooHyeok/docker_jenkins_pipeline_script_example'; 
             }
         }
         
